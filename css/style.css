@@ -656,6 +656,11 @@ body.lightmode .form select{
     padding: 8px 16px 8px 16px !important;
 }
 
+.nav-link i {
+    margin-right: 8px;
+    font-size: 1rem;
+}
+
 .navbar-nav{
     display: flex;
     flex-wrap: wrap;
@@ -5325,9 +5330,9 @@ body.lightmode .cta-service-banner::before{
 
 @media (max-width: 768px) {
     .navbar-logo {
-        max-height: 40px;
+        max-height: 32px;
         width: auto !important;
-        height: 40px !important;
+        height: 32px !important;
     }
 
     .whatsapp-float {
